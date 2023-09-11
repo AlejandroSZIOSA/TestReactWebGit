@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Test React Web with Git</Text>
+      <Text style={styles.textStyle} >Test React Web with Git</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,4 +17,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  textStyle:{
+    color: 'white',
+    fontSize: 35,
+    fontWeight: 'bold', 
+  }
 });
